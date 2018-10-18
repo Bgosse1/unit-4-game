@@ -17,7 +17,15 @@ body{
 }
 #userTotalHeader{
     background-color: blueviolet;
+    font-size: 18px;
 }
 #userTotal{
     background-color: blueviolet;
+    font-size: 36px;
+}
+.userTotalDiv{
+    background-color: blueviolet;
+}
+#randomNumberValue{
+    font-size: 36px;
 }
