@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="header text-center">CrystalsCollector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 rules">
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <p>
+                    There are four crystals below. By clicking on a crystal you will ad a specfic amount of points
+                    to your total score.
+                </p>
+                <p>
+                    You win the game by matching your total score to random number, you lose the game if your total
+                    score goes above the random number.
+                </p>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.
+                </p>
+                <p>
+                    Each time when the game starts, the game will change the values of each crystal
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="randomNumber" class="col-md-4 randomNum">
+                <span id="randomNumberValue"></span>
+            </div>
+            <div class="col-md-2 winlosses">
+                <p>Wins: <span id="wins"></span> </p>
+                <p>Losses: <span id="losses"></span> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                <img id="redCrystal" src="./assets/images/red.png" />
+            </div>
+            <div class="col-md-1">
+                <img id="blueCrystal" src="./assets/images/blue.png" />
+            </div>
+            <div class="col-md-1">
+                <img id="yellowCrystal" src="./assets/images/yellow.png" />
+            </div>
+            <div class="col-md-1">
+                <img id="greenCrystal" src="./assets/images/green.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span id="userTotalHeader">Your Total score is:</span>
+                <div>
+                    <span id="userTotal"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

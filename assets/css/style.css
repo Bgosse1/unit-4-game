@@ -1,0 +1,23 @@
+body{
+    background-image: url(../images/background.png);
+}
+.header{
+    background-color: darkorange;
+    color: white;
+}
+.rules{
+    color: green;
+    background-color: Wheat;
+}
+.randomNum{
+    background-color: green;
+}
+.winlosses{
+    background-color: aqua;
+}
+#userTotalHeader{
+    background-color: blueviolet;
+}
+#userTotal{
+    background-color: blueviolet;
+}
