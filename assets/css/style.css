@@ -11,17 +11,21 @@ body{
 }
 .randomNum{
     background-color: green;
+    color: purple;
 }
 .winlosses{
     background-color: aqua;
+    color: green;
 }
 #userTotalHeader{
     background-color: blueviolet;
     font-size: 18px;
+    color: white;
 }
 #userTotal{
     background-color: blueviolet;
     font-size: 36px;
+    color: white;
 }
 .userTotalDiv{
     background-color: blueviolet;
